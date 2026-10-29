@@ -1,0 +1,79 @@
+
+{
+  "services": [
+    { "name": "Wi-Fi gratuit", "icon": "📶" },
+    { "name": "Restaurant", "icon": "🍽️" },
+    { "name": "Piscine", "icon": "🏊" },
+    { "name": "Spa", "icon": "💆" },
+    { "name": "Room service", "icon": "🛎️" },
+    { "name": "Parking", "icon": "🚗" }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "number": "101",
+      "type": "Simple",
+      "capacity": 1,
+      "price": 3500,
+      "status": "Disponible",
+      "client": " Ayoub nassir ",
+      "services": ["Wi-Fi gratuit", "Parking"],
+      "description": "Chambre confortable pour une personne."
+    },
+    {
+      "id": 2,
+      "number": "102",
+      "type": "Double",
+      "capacity": 2,
+      "price": 5500,
+      "status": "Occupée",
+      "client": "Sara Amrani",
+      "services": ["Wi-Fi gratuit", "Restaurant", "Piscine"],
+      "description": "Chambre double avec vue sur le jardin."
+    },
+    {
+      "id": 3,
+      "number": "201",
+      "type": "Suite",
+      "capacity": 4,
+      "price": 12000,
+      "status": "Réservée",
+      "client": "Youssef Karim",
+      "services": ["Wi-Fi gratuit", "Spa", "Room service"],
+      "description": "Suite spacieuse avec salon privé."
+    },
+    {
+      "id": 4,
+      "number": "202",
+      "type": "Double",
+      "capacity": 2,
+      "price": 6000,
+      "status": "Disponible",
+      "client": " salma salim",
+      "services": ["Wi-Fi gratuit", "Piscine"],
+      "description": "Chambre moderne pour deux personnes."
+    },
+    {
+      "id": 5,
+      "number": "301",
+      "type": "Simple",
+      "capacity": 1,
+      "price": 3000,
+      "status": "Maintenance",
+      "client": " marwa bestaoui",
+      "services": ["Wi-Fi gratuit"],
+      "description": "Chambre temporairement indisponible."
+    },
+    {
+      "id": 6,
+      "number": "302",
+      "type": "Suite",
+      "capacity": 3,
+      "price": 10000,
+      "status": "Occupée",
+      "client": "Lina Haddad",
+      "services": ["Wi-Fi gratuit", "Restaurant", "Spa"],
+      "description": "Suite équipée pour un séjour confortable."
+    }
+  ]
+}
